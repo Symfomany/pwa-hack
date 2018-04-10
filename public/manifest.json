@@ -1,0 +1,31 @@
+{
+  "short_name": "Wild",
+  "name": "Wild PWA",
+  "icons": [
+    {
+      "src": "img/wild48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/wild96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/wild192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/wild512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html?launcher=true",
+  "background_color": "#2196F3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2196F3"
+}

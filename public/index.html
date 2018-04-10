@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WildCodeSchool PWA</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="theme-color" content="#EF6C00">
+	<link rel="icon" sizes="192x192" href="icon-default.png">
+	<script type="text/javascript" src="/js/init_sw.js"></script>
+	<!-- Navigo is beautiful lib to build routing in pwa -->
+	<script src="/js/navigo.js"></script>
+
+	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/router.js"></script>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+	<nav class="nav-header">
+		<div class="nav-header__menu-show nav-button button-light material-icons" tabindex="0">menu</div>
+		<div class="nav-header__left-align">
+			<span>WildCodeSchool</span>
+		</div>
+		<div class="nav-header__right-align">
+			<div class="nav-header__side-button nav-button button-light material-icons" tabindex="0">search</div>
+			<div class="nav-header__side-button nav-button button-light material-icons" tabindex="0">more_vert</div>
+		</div>
+	</nav>
+
+
+	<div class="content" id="content">
+		<!-- Liste -->
+		<li id="loader">
+			<div class="container">
+				<div class="flex">
+					<div class="loader">
+					</div>
+				</div>
+				<div class="load-text">
+					Loading...
+				</div>
+			</div>
+		</li>
+	</div>
+
+
+
+
+
+
+</body>
+
+</html>

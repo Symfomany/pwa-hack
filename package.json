@@ -1,0 +1,19 @@
+{
+  "name": "simple-pwa",
+  "version": "1.0.0",
+  "description": "just testing out",
+  "main": "app.js",
+
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
